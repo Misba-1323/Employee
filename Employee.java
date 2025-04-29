@@ -6,7 +6,7 @@ public class Employee {
    double salary;
    String address;
    //Constructors
-   public Employee(String name, int id, double salary) {
+   public Employee(String name, int id, double salary,String address) {
     this.name = name;
     this.id = id;
     this.salary = salary;
@@ -24,7 +24,7 @@ public class Employee {
     //Main method
     public static void main(String[] args) {
         //Creating an object of Employee
-        Employee emp1 = new Employee("John", 101, 50000.0);
+        Employee emp1 = new Employee("John", 101, 50000.0,"Hubli");
         emp1.displayInfo();
     }
 }
